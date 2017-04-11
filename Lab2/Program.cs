@@ -22,7 +22,14 @@ namespace Lab2
                 Console.WriteLine("Hello {0}, Please enter a integer between 1 and 100", Name);
 
                 int Num;
-                Num = int.Parse(Console.ReadLine());          // user input
+                Num = int.Parse(Console.ReadLine());
+                // user input
+                if (Num <= -1)
+                {
+                    Console.WriteLine("please enter a number higher than 0");
+
+
+                }
 
                 if (Num % 2 != 0 && Num > 60)
 
@@ -59,10 +66,10 @@ namespace Lab2
 
             } while (askToContinue);
 
-            
-
-
-
         }
+
+
+
     }
+
 }
