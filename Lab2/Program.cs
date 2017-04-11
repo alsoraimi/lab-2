@@ -23,14 +23,21 @@ namespace Lab2
 
                 Console.WriteLine(Num);
                 Console.WriteLine("ODD");
-
-
-
             }
 
+          if (Num <= 25 && Num >= 2 && Num % 2 == 0) 
 
+            {
 
+                Console.WriteLine("Even and less than 25");
+            }
 
+            if (Num % 2 == 0 && Num > 60)
+            {
+                Console.WriteLine(Num);
+                Console.WriteLine("EVEN");
+
+            }
 
 
 
