@@ -16,7 +16,7 @@ namespace Lab2
             int Num;
             Num = int.Parse(Console.ReadLine());          // user input
 
-            if (Num % 2 != 0)
+            if (Num % 2 != 0 && Num > 60) 
 
 
             {
@@ -38,6 +38,8 @@ namespace Lab2
                 Console.WriteLine("EVEN");
 
             }
+            
+            
 
 
 
