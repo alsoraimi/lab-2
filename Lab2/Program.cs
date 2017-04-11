@@ -31,6 +31,15 @@ namespace Lab2
 
                 }
 
+                if (Num % 2 != 0)
+
+
+                {
+
+                    Console.WriteLine(Num);
+                    Console.WriteLine("Your number is ODD, {0}", Name);
+                }
+
                 if (Num % 2 != 0 && Num > 60)
 
 
