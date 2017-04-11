@@ -10,8 +10,12 @@ namespace Lab2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter your first name");
+            string Name;
+            Name = Console.ReadLine();
 
-            Console.WriteLine("Please enter a integer between 1 and 100");
+
+            Console.WriteLine("Hello {0}, Please enter a integer between 1 and 100", Name);
 
             int Num;
             Num = int.Parse(Console.ReadLine());          // user input
@@ -22,20 +26,20 @@ namespace Lab2
             {
 
                 Console.WriteLine(Num);
-                Console.WriteLine("ODD");
+                Console.WriteLine("Your number is ODD, {0}", Name);
             }
 
           if (Num <= 25 && Num >= 2 && Num % 2 == 0) 
 
             {
 
-                Console.WriteLine("Even and less than 25");
+                Console.WriteLine("Your number is EVEN and less than 25, {0}", Name);
             }
 
             if (Num % 2 == 0 && Num > 60)
             {
                 Console.WriteLine(Num);
-                Console.WriteLine("EVEN");
+                Console.WriteLine("your number is EVEN, {0}" , Name);
 
             }
             
