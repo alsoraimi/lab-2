@@ -10,11 +10,11 @@ namespace Lab2
     {
         static void Main(string[] args)
         {
-            bool askToContinue = false;
+            bool askToContinue = false;                 // added for loop
             do
             {
 
-                Console.WriteLine("Please enter your first name");
+                Console.WriteLine("Please enter your first name");          // added to get user first name
                 string Name;
                 Name = Console.ReadLine();
 
@@ -31,7 +31,7 @@ namespace Lab2
 
                 }
 
-                if (Num % 2 != 0)
+                if (Num % 2 != 0)               // used modulus to check if number is odd or even
 
 
                 {
